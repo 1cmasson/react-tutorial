@@ -41,7 +41,7 @@ class Bays extends React.Component{
             if(tempBay.bay === 30){
                 tempBay.bay = 1;
                 
-            }else if(tempBay.bay === 30){
+            }else if(tempBay.bay === 31){
                 tempBay.bay = 2;
                 tempBay.aisle += 1;
             } else {
