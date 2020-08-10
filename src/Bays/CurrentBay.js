@@ -3,19 +3,16 @@ import Bay from './Bay';
 
 
 
-function NextBay(props){
+function CurrentBay(props){
     
 return (
         <div>
-            <h1>Right Now You Are Signed Into Bay</h1>
+            <h1>You Are Currently Signed Into </h1>
             <Bay aisle = {props.aisle} bay = {props.bay}></Bay>
-            <br></br>
-            
-            
         </div>
 
 );
 
 }
 
-export default NextBay;
+export default CurrentBay;
